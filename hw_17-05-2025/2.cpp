@@ -18,7 +18,6 @@ int ktra(string s)
             }
 
             if (c == true) {
-                cout << str << endl;
                 dem = dem + 1;
             }
         }
