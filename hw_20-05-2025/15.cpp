@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     int N, SN = 0;
     cin >> N;
-    int a[N], b[N];
+    int a[N];
 
     for (int i = 0; i < N; i++) {
         cin >> a[i];
@@ -14,7 +14,6 @@ int main() {
         bool done = false;
 
         SN = SN + 1;
-        b[i] = a[i];
 
         for (int j = SN; j < (N - SN); j++) {
             if (a[j - i - 1] != a[j]) {
